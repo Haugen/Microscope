@@ -1,2 +1,5 @@
-// Subscribe to the 'Posts' publication
-Meteor.subscribe('posts');
+// Some options for the spinner.
+Meteor.Spinner.options = {
+  top: '200px',
+  left: '50%'
+}
