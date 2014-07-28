@@ -3,7 +3,8 @@
   "dependencies": {
     "basePackages": {
       "iron-router": {},
-      "spin": {}
+      "spin": {},
+      "accounts-ui-bootstrap-dropdown": {}
     },
     "packages": {
       "iron-router": {
@@ -15,6 +16,11 @@
         "git": "https://github.com/SachaG/meteor-spin.git",
         "tag": "v2.0.3",
         "commit": "23c1145472a710d5c93fa4beaca4e576caeb2f24"
+      },
+      "accounts-ui-bootstrap-dropdown": {
+        "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
+        "tag": "v0.8.3",
+        "commit": "a7af8a52e4e74db020a69b158a8f992797b8b0b0"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
